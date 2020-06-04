@@ -5,7 +5,8 @@ def using_push (array, string)
 end
 
 def using_unshift (array, string)
-  [array].unshift(string)
+  new_array = [array].unshift(string)
+  new_array
   binding.pry
 end
 
