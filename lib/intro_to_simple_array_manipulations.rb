@@ -9,6 +9,7 @@ def using_unshift (array, string)
   array = [array].unshift(string)
   puts array
   puts array.length
+  binding.pry
 end
 
 def using_pop (array)
