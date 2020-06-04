@@ -14,6 +14,5 @@ def using_pop (array)
 end
 
 cities = ["new york", "chicago", "detroit"]
-puts cities
 
-using_unshift
+using_unshift(cities, "toledo")
