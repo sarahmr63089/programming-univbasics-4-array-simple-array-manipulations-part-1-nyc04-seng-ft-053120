@@ -15,4 +15,4 @@ end
 
 cities = ["new york", "chicago", "detroit"]
 
-using_unshift cities "toledo"
+using_unshift (cities, "toledo")
