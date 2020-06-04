@@ -6,7 +6,7 @@ end
 
 def using_unshift (array, string)
   puts array.length
-  array = [array].unshift(string)
+  array = array.unshift(string)
   puts array
   puts array.length
   binding.pry
