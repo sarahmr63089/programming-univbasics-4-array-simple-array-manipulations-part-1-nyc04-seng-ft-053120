@@ -15,4 +15,4 @@ end
 
 cities = ["new york", "chicago", "detroit"]
 
-using_unshift (cities, "san francisco")
+using_unshift (cities, sarah)
