@@ -15,3 +15,5 @@ end
 
 cities = ["new york", "chicago", "detroit"]
 puts cities
+
+using_unshift
