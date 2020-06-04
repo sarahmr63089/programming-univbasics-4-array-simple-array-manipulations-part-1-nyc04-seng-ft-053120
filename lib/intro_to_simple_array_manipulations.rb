@@ -5,11 +5,7 @@ def using_push (array, string)
 end
 
 def using_unshift (array, string)
-  puts array.length
   array = array.unshift(string)
-  puts array
-  puts array.length
-  binding.pry
 end
 
 def using_pop (array)
