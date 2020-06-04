@@ -12,3 +12,8 @@ end
 def using_pop (array)
   [array].pop
 end
+
+cities = ["new york", "chicago", "detroit"]
+city = "san francisco"
+
+using_unshift (cities, "san francisco")
