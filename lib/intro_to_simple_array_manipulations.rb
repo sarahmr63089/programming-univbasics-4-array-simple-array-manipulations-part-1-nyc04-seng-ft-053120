@@ -6,13 +6,13 @@ end
 
 def using_unshift (array, string)
   new_array = [array].unshift(string)
-  puts new_array
+  new_array
 end
 
 def using_pop (array)
   [array].pop
 end
 
-cities = ["new york", "chicago", "detroit"]
+#cities = ["new york", "chicago", "detroit"]
 
-using_unshift(cities, "toledo")
+#using_unshift(cities, "toledo")
